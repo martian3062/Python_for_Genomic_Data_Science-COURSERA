@@ -78,3 +78,81 @@ The conditions for printing 'very big' are never reached due to the first if sta
 2
 
 The loop breaks when i becomes 2, which is the first even number encountered
+
+
+LECTURE 5 QUIZ
+Functions swap2, swap3, and swap4 only
+
+
+f1 and f2 will return the same value only for negative values of x. For positive x, f1 divides by 2 after multiplying by 3, while f2 multiplies by 3 first and then divides everything by 2.
+
+function1 produces the output: 3 2 1 and function2 runs infinitely.
+
+function1 will correctly print 3, 2, 1 and terminate. function2 will run infinitely because it doesn't have a base case to stop the recursion.
+
+x+n*y
+
+The compute function adds y to x, n times recursively. So the final result is x+n*y.
+
+The function will never return a value.
+
+If n is negative, the function will recurse infinitely and never reach the base case of n==0.
+
+valid_dna4 only
+
+Only valid_dna4 correctly checks if all characters in the DNA string are valid. The others have logical errors.
+
+L3 is a list that contains only the elements that are common between the lists (without duplicates).
+
+The list comprehension creates a new list with elements that are in both L1 and L2, using set(L1) to remove duplicates.
+
+An error message.
+
+An error will occur because the function tries to print message before it is defined within the function's scope.
+
+may have no parameters
+
+Functions in Python may have no parameters. The other statements are not always true.
+
+C
+
+Option C is the only correct function header. Default arguments must come after non-default arguments.
+
+LECTURE 6 QUIZ 
+B
+
+The correct option is B. The code:
+
+python
+import sys
+print(sys.version)
+is a correct Python program to obtain the Python version you are using. This imports the sys module and prints the version attribute, which contains the Python version information.
+
+Option A is incorrect as version is not a built-in variable.
+Option C is incorrect as version is not defined.
+Option D is incorrect as sys.version is not the correct attribute name.
+
+Creates a dna variable containing a string of length 1000000, and with the a,c,g,t characters.
+
+The function create_dna generates a random DNA sequence of length n (1000000 in this case) using the characters a, c, g, and t. It uses random.choice to select a random character from the alphabet for each position.
+
+All of them are correct.
+
+All four functions correctly count the occurrences of a specific base in the DNA sequence. They use different approaches but produce the same result.
+
+count4
+
+The count4 function is likely the fastest as it uses the built-in count() method of strings, which is optimized for this exact purpose.
+
+A, B, and D
+
+When PYTHONPATH is set, Python searches for modules in:
+A) The directories specified in PYTHONPATH
+B) The current directory
+D) The installation-dependent default path
+
+The home directory (C) is not automatically searched unless specified in PYTHONPATH.
+
+Lists all the attributes of the dnautil module
+
+The dir() function, when called with a module as an argument, returns a list of all valid attributes and methods of that module. This includes functions, variables, and other objects defined in the module
