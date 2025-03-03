@@ -1,1 +1,56 @@
+LECTURE 7 QUIZ 
 
+f = open('myfile', 'a')
+
+The 'a' mode opens the file for appending, which allows writing to the file without deleting its existing content1.
+
+A, B, and D only
+
+A) When opening a file for reading, an error occurs if the file doesn't exist4.
+B) When opening a file for writing, a new file is created if it doesn't exist4.
+D) When opening a file for writing, the existing file is overwritten if it exists4.
+
+get_extension3 only
+
+get_extension3 is the only function that correctly handles both cases:
+
+It returns the last extension for files with extensions
+
+It returns an empty string for files without extensions56
+
+'myfile1.fa'
+
+sys.argv1 refers to the first command-line argument after the script name, which in this case is 'myfile1.fa'78.
+
+An error will be produced stating that the file to be opened does not exist.
+
+The os.listdir() function returns only the names of files and directories within the specified directory, not their full paths910. 
+When trying to open filenames, Python will look for the file in the current working directory (home directory), not in 'mydir'. Since the file doesn't exist in the home directory, 
+an error will occur
+LECTURE 8 QUIZ 
+Question 1
+What module can we use to run BLAST over the internet in Biopython?
+
+Correct Answer:
+Bio.Blast.NCBIWWW
+
+Explanation:
+The Bio.Blast.NCBIWWW module is used in Biopython to run BLAST searches over the internet.
+
+Question 2
+Which one of the following modules is not part of the Bio.Blast package in Biopython?
+
+Correct Answer:
+FastaIO
+
+Explanation:
+The FastaIO module is not part of the Bio.Blast package. It is used for handling FASTA file input/output in Biopython. The other options 
+(Applications, Record, and NCBIStandalone) are part of the Bio.Blast package.
+Question 4
+What is the correct Biopython code to print the reverse complement of my_seq?
+
+Correct Answer:
+print('reverse complement is %s' % my_seq.reverse_complement())
+
+5TH ANS 
+WASYLSYIPCSYGGAMFYVNPRSKDIIPKSYN*DLDMVLFCLSYRRLCSFLLFFGLLLILLWHLR*
