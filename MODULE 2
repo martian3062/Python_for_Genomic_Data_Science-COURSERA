@@ -1,0 +1,80 @@
+QUIZ 3
+
+List
+
+The object [1e-10,(1,2),"BGP",] is a List.
+
+90.0
+
+The code (grades+grades)/2 returns 90.0.
+
+['GT-AG', 'GC-AG']
+
+splice_site_pairs[:-1] returns ['GT-AG', 'GC-AG'].
+
+L.append(e)
+
+To add a new element e to a list L, we use the command L.append(e).
+
+Error
+
+The code t.append(('A','C','G','T')) will result in an error because tuples don't have an append method.
+
+'t'
+
+The print function in the given code will output 't'.
+
+del dna_counts['a']
+
+To delete an entry with the key 'a' from the dictionary, we use the command del dna_counts['a'].
+
+dna_counts={'t':dna.count('t'),'c':dna.count('c'),'g':dna.count('g'),'a':dna.count('a')}
+max_freq=sorted(dna_counts.values())[-1]
+
+This code will find the frequency of the most frequent character in the string dna.
+
+All elements common between lists L1 and L2 without duplicates
+
+L3 = list(set(L1)&set(L2)) contains all elements common between lists L1 and L2 without duplicates.
+
+2
+
+QUIZ 4
+
+
+This is the correct negation of the original expression. It uses De Morgan's laws to negate the original compound condition.
+
+if fold is 2
+
+The code will print 'condition B' only when fold is exactly 2. For any other value, one of the other conditions will be true.
+
+11
+
+The loop will execute 11 times. Starting from 1, doubling each time: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024. The next doubling would exceed 2048, so it stops after 11 iterations.
+
+1, -2, -5, -8, -11, -14, -17, -20
+
+
+
+All three changes are needed to correctly generate all non-empty substrings.
+
+C only
+
+Only option C correctly implements the equivalent while loop version of the original for loop.
+
+Change line3 to be:
+if elem in L2 and elem not in L3:
+
+This change ensures that only common elements are added to L3, without duplicates.
+
+The value of the result variable is the same, but the variable d is different.
+
+Both versions correctly compute the result, but they populate the dictionary d differently.
+
+For no value
+
+The conditions for printing 'very big' are never reached due to the first if statement.
+
+2
+
+The loop breaks when i becomes 2, which is the first even number encountered
